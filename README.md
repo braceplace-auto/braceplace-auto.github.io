@@ -1,36 +1,17 @@
-# BRACEPLACE-AUTO — Car Rental Website Demo
+# BRACEPLACE-AUTO — Car Rental Demo / V3
 
-Premium car rental storefront prototype in English. Open `index.html` in any modern browser; no installation required. Includes 26 illustrative vehicle models with remote Wikimedia Commons photographs, category/price filters, rental dates, a working downloadable enquiry summary, responsive design, two customer-service slots, and an interactive Google Maps embed for a real public landmark. The photographs require an internet connection.
+A responsive, English-language car-rental website concept with **26 vehicle listings**, **26 included local illustrative vehicle images** (all WebP), published **third-party price comparison examples** for all 26 cars, six vehicle categories, search and sorting, a local enquiry-summary download, and an interactive reference map. Open `index.html` directly; no build tools required. The map needs internet, but catalog images do not.
 
-## IMPORTANT BEFORE PUBLISHING
+## IMPORTANT — DO NOT PUBLISH AS A LIVE RENTAL BUSINESS WITHOUT UPDATING
 
-- **The fleet is illustrative, not actual company inventory.** Replace listings with vehicles you control or are authorized to offer.
-- **Rates are real published historical / representative Hertz Miami-area benchmark figures**, in USD/day, captured 19 September 2026 from the provider pages linked in each card and `data/vehicles.json`. They are NOT BRACEPLACE-AUTO offers, live rates, guaranteed prices, or quotes for selected dates. Some models say *Request quote* rather than invent a price.
-- **The phone numbers +1 305-555-0148 and +1 305-555-0164 are fictional reserved demo numbers; NOT functioning support lines.** Replace these in `index.html` with numbers you actually control before launch, then enable click-to-call.
-- **3900 NW 25th Street, Miami, FL 33142 is the genuine public Miami International Airport Rental Car Center**, shown solely as an area landmark; BRACEPLACE-AUTO has not been verified as a tenant/operator there. Do NOT claim it as your own company address or pickup counter. Replace location/map with verified company premises before launch.
-- **Enquiry is a local text download, not a live booking or payment system.** Add a backend/email/SMS/CRM service and real-time inventory before taking reservations.
-- Confirm business incorporation, rental agreements, insurance, fees, consumer disclosures, payment security and relevant airport permissions before operating.
+- **Vehicle photos are AI-generated illustrations**, not photos of actual cars. All images are included locally at `assets/vehicles/` so no vehicle card depends on an external image host. Some illustrations approximate vehicle trims. Replace with authorized, real fleet photos before publication.
+- **All rates are third-party Miami comparison examples** checked September 19, 2026. Some are model-specific, others show the published rate for a *vehicle class or a different variant*. See `rateBasis`, `rateLocation`, `source` for each vehicle in `data/vehicles.json`. These ARE NOT BRACEPLACE-AUTO rental quotes, live prices, or guaranteed availability. Rates and taxes vary. Replace with your actual rates.
+- **+1 305-555-0148 / +1 305-555-0164 are DEMO numbers and do not work.** Replace with real support and rental contact numbers before launch.
+- **3900 NW 25th Street, Miami, FL 33142** is a real public Miami International Airport Rental Car Center address shown for geographic reference. BRACEPLACE-AUTO has NO confirmed location at this facility. Replace with your actual address/map before publication.
+- **The enquiry form downloads a text file locally.** It does not send messages, accept payments, check availability, or book a car.
 
-## Files
+## Included files
 
-- `index.html` — complete storefront and enquiry experience.
-- `assets/style.css` — responsive visual design.
-- `assets/app.js` / `assets/vehicles.js` — UI logic and catalog data.
-- `assets/braceplace-logo.webp` — lightweight optimized company logo.
-- `assets/fallback-car.svg` — local illustrated fallback while real photo links load.
-- `data/vehicles.json` — editable vehicle, price, and source metadata.
-- `PHOTO_CREDITS.md` — real photo source links and licensing information.
+`index.html`, `assets/style.css`, `assets/app.js`, `assets/vehicles.js`, `assets/braceplace-logo.webp`, `assets/vehicles/*.webp` (26 pictures), `data/vehicles.json`, `PHOTO_CREDITS.md`, and `preview/BRACEPLACE-AUTO-vista-previa.png`.
 
-## Price references
-
-- https://www.hertz.com/us/en/location/unitedstates/florida/miami/miac01
-- https://www.hertz.com/us/en/location/unitedstates/florida/miami/miac21
-- https://www.hertz.com/us/en/location/unitedstates/florida/miami/miac10
-- https://www.hertz.com/us/en/location/unitedstates/florida/miami/miac09
-- https://www.hertz.com/us/en/location/unitedstates/florida/miami/miac39
-
-Official public landmark verification: https://www.miami-airport.com/services-and-amenities.asp
-
-## Deploy
-
-Upload all files and folders preserving their relative paths to a static host (for example GitHub Pages). For commercial deployment first complete the critical items above. Do not remove photo credits or applicable Creative Commons license information.
+Upload *all* files, preserving folders, to GitHub Pages or another static host. Read `PHOTO_CREDITS.md` before making any commercial claims.
