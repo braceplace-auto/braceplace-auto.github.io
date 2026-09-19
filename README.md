@@ -1,6 +1,6 @@
 # BRACEPLACE-AUTO — Car Rental Website Demo
 
-Premium car rental storefront prototype in English. Open `index.html` in any modern browser; no installation required. Includes 13 real vehicle models with remote Wikimedia Commons photographs, category/price filters, rental dates, a working downloadable enquiry summary, responsive design, two customer-service slots, and an interactive Google Maps embed for a real public landmark. The photographs require an internet connection.
+Premium car rental storefront prototype in English. Open `index.html` in any modern browser; no installation required. Includes 26 illustrative vehicle models with remote Wikimedia Commons photographs, category/price filters, rental dates, a working downloadable enquiry summary, responsive design, two customer-service slots, and an interactive Google Maps embed for a real public landmark. The photographs require an internet connection.
 
 ## IMPORTANT BEFORE PUBLISHING
 
